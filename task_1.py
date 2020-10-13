@@ -9,9 +9,10 @@ from pprint import pprint
 # response = requests.get(\
 # "https://superheroapi.com/api/2619421814940190/search/id",\
 # headers={"User-Agent": "superman"})
+# data = response.json()
+# pprint(data)
 
-data = response.json()
-pprint(data)
+
 # Ищем Халка
 response = requests.get(\
 "https://superheroapi.com/api/2619421814940190/search/hulk",\

@@ -23,7 +23,6 @@ class YaUploader:
 
         return f' Ваш {file_path} , был успешно загружен'
 
-
 if __name__ == '__main__':
     uploader = YaUploader('ThisisTOKEN)
     result = uploader.upload('test.txt')
